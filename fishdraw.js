@@ -2576,7 +2576,7 @@ function main(seed){
 
 
 if (typeof module != "undefined"){
-  module.exports = {main,generate_params,default_params,fish,reframe,cleanup,draw_svg,binomen,str_to_seed};
+  module.exports = {main,generate_params,default_params,fish,reframe,cleanup,draw_svg,binomen,str_to_seed,draw_svg_anim};
   if (require.main === module) {
     let seed = undefined;
     let format = 'svg';
